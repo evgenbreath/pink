@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    margin: 0 auto;
+}
+.header {
+   
+    max-height: 800px;
+    //border: 1px solid #000;
+    background: url(../img/bg.png) no-repeat top center/ cover;
+}
+
+.headerone {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background-color: #f9f9f8;
+    opacity: 85%;
+    margin: 0 auto;
+    //border: 1px solid #000;
+    align-items: center;
+    height: 100px;
+}
+
+.logoimg {
+   margin-left: 10%;
+   margin-right: 40px;
+}
+
+.logonavbar {
+    //border: 1px solid #000;
+    right: 0;
+    width: auto;
+    margin-right: 10%;
+}
+
+.menu:hover {
+    color: rebeccapurple;
+}
+
+.menu {
+    padding-right: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.login {
+    height: 30px;   
+    background-color: rgb(196, 34, 61);
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.login:hover {
+    background-color: salmon;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+   // border: 1px solid #000;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    
+
+}
+.title_welcome {
+    display: block;
+    color: white;
+    margin: 0 auto;
+    font-size: 100px;
+    text-shadow: rgb(0, 0, 0) 0 0 10px;
+    
+    
+}
+.title_one {
+    text-transform: uppercase;
+}
+.title_two {
+    font-size: 36px;
+    text-transform: none;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    line-height: 2;
+}
+
+.sublorem {
+    font-size: 36px;
+    color: #404040;
+    padding-top: 70px;
+
+}
+
+.suplorem {
+    font-size: 17px;
+    color: #636363;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about {
+
+    margin: 50px auto;
+    max-width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background-color: cadetblue;
+}
+
+.tickets {
+    background-color: #4eb9f4;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+.tickets_img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 70px;
+}
+
+.camera_img {
+    background-color: #6fc125;
+}
+.beer_img {
+    background-color: #ff5649;
+}
+.devices_img {
+    background-color: #e48f23;
+}
+.about_text {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
